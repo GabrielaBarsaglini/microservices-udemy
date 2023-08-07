@@ -1,0 +1,97 @@
+2023-04-06 10:47:58.989  INFO 22624 --- [restartedMain] i.g.c.m.AvaliadorcreditoApplication      : Starting AvaliadorcreditoApplication using Java 19.0.2 on GFT-YUNpyNUrYzo with PID 22624 (C:\Users\GAVI\IdeaProjects\MICROSERVICES\msavaliadorcredito\msavaliadorcredito\target\classes started by gavi in C:\Users\GAVI\IdeaProjects\MICROSERVICES\msavaliadorcredito)
+2023-04-06 10:47:58.999  INFO 22624 --- [restartedMain] i.g.c.m.AvaliadorcreditoApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-04-06 10:47:59.181  INFO 22624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-06 10:47:59.184  INFO 22624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-06 10:48:01.945  INFO 22624 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=10df5d30-f5c2-3ec5-9fd8-db52d2d18df6
+2023-04-06 10:48:03.234  INFO 22624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-04-06 10:48:03.254  INFO 22624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-06 10:48:03.255  INFO 22624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-04-06 10:48:03.465  INFO 22624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-06 10:48:03.466  INFO 22624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4280 ms
+2023-04-06 10:48:04.573  INFO 22624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-06 10:48:04.735  INFO 22624 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'msclientes' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:48:04.959  INFO 22624 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'mscartoes' URL not provided. Will try picking an instance via load-balancing.
+2023-04-06 10:48:09.747  INFO 22624 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2023-04-06 10:48:09.852  WARN 22624 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-04-06 10:48:09.872  INFO 22624 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2023-04-06 10:48:10.000  INFO 22624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 49524 (http) with context path ''
+2023-04-06 10:48:10.003  INFO 22624 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 49524
+2023-04-06 10:48:10.041  INFO 22624 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2023-04-06 10:48:10.487  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2023-04-06 10:48:10.497  INFO 22624 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 10:48:10.537  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-04-06 10:48:10.538  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-04-06 10:48:10.538  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-04-06 10:48:10.538  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-04-06 10:48:10.539  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-04-06 10:48:10.539  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2023-04-06 10:48:10.539  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-04-06 10:48:11.159  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-04-06 10:48:11.160  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2023-04-06 10:48:11.165  INFO 22624 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-04-06 10:48:11.176  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1680788891173 with initial instances count: 0
+2023-04-06 10:48:11.178  INFO 22624 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application MSAVALIADORCREDITO with eureka with status UP
+2023-04-06 10:48:11.180  INFO 22624 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1680788891180, current=UP, previous=STARTING]
+2023-04-06 10:48:11.183  INFO 22624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:caa78e0ccafc4d0381ea0d2dc7173ae6: registering service...
+2023-04-06 10:48:11.432  INFO 22624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:caa78e0ccafc4d0381ea0d2dc7173ae6 - registration status: 204
+2023-04-06 10:48:11.467  INFO 22624 --- [restartedMain] i.g.c.m.AvaliadorcreditoApplication      : Started AvaliadorcreditoApplication in 13.757 seconds (JVM running for 15.077)
+2023-04-06 10:48:41.180  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2023-04-06 10:48:41.208  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2023-04-06 10:48:41.210  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2023-04-06 10:48:41.210  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2023-04-06 10:48:41.210  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2023-04-06 10:48:41.210  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2023-04-06 10:48:41.210  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2023-04-06 10:48:41.281  INFO 22624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2023-04-06 10:53:10.558  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 10:58:10.565  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:03:10.569  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:08:10.572  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:13:10.582  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:18:10.596  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:23:10.602  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:28:10.614  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:33:10.618  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:38:10.622  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:43:10.635  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:48:10.646  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:53:10.652  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 11:58:10.674  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:03:10.690  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:08:10.693  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:13:10.707  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:18:10.715  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:23:10.731  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:28:10.739  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:33:10.742  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 12:38:10.745  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 13:30:56.878  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 13:35:56.798  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 13:40:56.783  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 13:45:56.786  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:17:19.983  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:22:19.999  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:27:20.004  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:32:20.091  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:37:20.585  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:42:20.593  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:47:20.605  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:52:20.615  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 14:57:20.631  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:02:20.639  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:07:20.657  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:12:20.669  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:17:20.674  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:22:20.680  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:27:20.688  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:32:20.700  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:37:20.714  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:42:20.720  INFO 22624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-04-06 15:44:33.075  INFO 22624 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application MSAVALIADORCREDITO with eureka with status DOWN
+2023-04-06 15:44:33.076  INFO 22624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1680806673076, current=DOWN, previous=UP]
+2023-04-06 15:44:33.077  INFO 22624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:caa78e0ccafc4d0381ea0d2dc7173ae6: registering service...
+2023-04-06 15:44:33.098  INFO 22624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:caa78e0ccafc4d0381ea0d2dc7173ae6 - registration status: 204
+2023-04-06 15:44:33.187  INFO 22624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2023-04-06 15:44:36.217  INFO 22624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2023-04-06 15:44:36.263  INFO 22624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_MSAVALIADORCREDITO/msavaliadorcredito:caa78e0ccafc4d0381ea0d2dc7173ae6 - deregister  status: 200
+2023-04-06 15:44:36.279  INFO 22624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
